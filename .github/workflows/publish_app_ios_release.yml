@@ -1,4 +1,4 @@
-name: app-release-action
+name: ios-app-ios-release-action
 # 仅支持手动触发
 on:
   workflow_dispatch:
