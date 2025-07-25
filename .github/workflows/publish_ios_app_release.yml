@@ -73,7 +73,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.event.inputs.tag }}
-          name: "${{ fromJson(steps.version.outputs.content).version }}"
+          name: ${{ github.event.inputs.tag }}
           body: "${{ fromJson(steps.version.outputs.content).version_desc }}"
           prerelease: ${{ fromJson(steps.version.outputs.content).prerelease }}
           token: ${{ secrets.GITHUB_TOKEN }}
