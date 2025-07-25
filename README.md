@@ -1,3 +1,4 @@
+### 为个人方便使用，根据日期编译 ipa release 原作@xiaoyaocz
 > ### ⚠ 本项目不提供Release安装包，请自行编译后运行测试。
 
 
